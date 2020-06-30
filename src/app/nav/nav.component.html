@@ -1,0 +1,79 @@
+<div class="navv" id="side-nav">
+    <div class="container">
+    <div class="container">
+        <p class="start">
+            <img src="../../assets/img/PL-02.png" style="width: 20%;"> <span class="app-name">OMC</span>
+        </p>
+    </div>
+
+    <div class="nav-tab">
+        <div class="container">
+
+            <!-- Row for every new nav tab -->
+            <!-- Start -->
+            <a routerLink="/home">
+            <div [ngClass]="{'nav-active':activeRoute == 'home'}" class="row" id="nav">
+                <div class="col-md-2">
+                    <i [ngClass]="{'nav-active-icon':activeRoute == 'home'}" class="fas fa-home"  id="nav-icon"></i>        
+                </div>
+                <div class="col-md-10">
+                    <h6 [ngClass]="{'nav-active-text':activeRoute == 'home'}" class="nav-text">Home</h6>
+                </div>
+            </div>
+            </a>
+            <!-- End -->
+            <!-- Start -->
+            <a routerLink="/stations">
+            <div [ngClass]="{'nav-active':activeRoute == 'stations'}" class="row" id="nav">
+                <div class="col-md-2">
+                    <i class="fab fa-wpforms" id="nav-icon"></i>        
+                </div>
+                <div class="col-md-10">
+                    <h6 [ngClass]="{'nav-active-text':activeRoute == 'stations'}" class="nav-text">Stations</h6>
+                </div>
+            </div>
+        </a>
+            <!-- End -->
+            <!-- Start -->
+            <a routerLink="/options">
+            <div [ngClass]="{'nav-active':activeRoute == 'options'}" class="row" id="nav">
+                <div class="col-md-2">
+                    <i class="fas fa-sliders-h" id="nav-icon"></i>       
+                </div>
+                <div class="col-md-10">
+                    <h6 [ngClass]="{'nav-active-text':activeRoute == 'options'}" class="nav-text">Options</h6>
+                </div>
+            </div>
+            </a>
+            <!-- End -->
+            <!-- Start -->
+            <a routerLink="/reports">
+            <div [ngClass]="{'nav-active':activeRoute == 'reports'}" class="row" id="nav">
+                <div class="col-md-2">
+                    <!-- <i class="fas fa-home" id="nav-icon"></i>   -->
+                    <i class="far fa-file-alt" id="nav-icon"></i>      
+                </div>
+                <div class="col-md-10">
+                    <h6  [ngClass]="{'nav-active-text':activeRoute == 'reports'}" class="nav-text">Reports</h6>
+                </div>
+            </div>
+            </a>
+            <!-- End -->
+             <!-- Start -->
+             <a routerLink="/logs">
+            <div [ngClass]="{'nav-active':activeRoute == 'logs'}" class="row" id="nav">
+                <div class="col-md-2">
+                    <!-- <i class="fas fa-home" id="nav-icon"></i>   -->
+                    <i class="far fa-file-code" id="nav-icon"></i>      
+                </div>
+                <div class="col-md-10">
+                    <h6  [ngClass]="{'nav-active-text':activeRoute == 'logs'}" class="nav-text">Logs</h6>
+                </div>
+            </div>
+            </a>
+            <!-- End -->
+            </div>
+
+        </div>
+        </div>
+</div>

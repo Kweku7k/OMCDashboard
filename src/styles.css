@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #f8f8f8;
+}
+
+.dashboard{
+    width: 70%;
+    position: fixed;
+    right: 0;
+
+}
+
+.head{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding-top: 15%;    
+}
+.sub-headings{
+    color: rgba(0, 0, 0, );
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold
+
+}
+
+.HistoryTable table{
+    font-family: 'Poppins', sans-serif;
+}
+
+.HistoryTable th{
+    color: rgba(0, 0, 0, 0.307);
+    padding-right: 100px;
+    font-size: small;
+}
+
+.HistoryTable tr{
+    padding-bottom: 10px;
+}
+
+tr {
+    border-collapse: collapse;
+    border-radius: 1px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    padding-top: 100px;
+    background-color: white;
+    overflow:hidden;
+}
+
+td {
+    padding:1rem;
+}
+
+td:first-of-type,th:first-of-type{
+    border-radius: 20px 0px 0px 20px;
+}
+
+td:last-of-type,th:last-of-type{
+    border-radius: 0px 20px 20px 0px;
+}

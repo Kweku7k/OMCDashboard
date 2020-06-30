@@ -1,0 +1,61 @@
+.navv{
+    width: 28%;
+}
+
+.app-name{
+font-family: 'Poppins', sans-serif;
+font-weight: bolder;
+padding-left: 5%;
+font-size: larger;
+}
+
+.start{
+    margin-top: 10px;
+}
+
+/* .active{} */
+
+.nav-active{
+    background-color:#60a6f53a;
+    border-radius: 10px;
+    padding: 10px;
+    /* color: #60a6f5; */
+    /* font-weight: bold; */
+}
+
+
+.nav-active-icon{
+    color: #60a6f5; 
+}
+
+#nav-icon{
+    color:#00000031
+}
+
+#nav{
+    border-radius: 10px;
+    padding: 10px;   
+}
+
+.nav-text{
+    color: #00000051;
+}
+
+#side-nav{
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.nav-active-text{
+    color: #60a6f5;
+    font-weight: bold;
+}
+

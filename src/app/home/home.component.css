@@ -1,0 +1,58 @@
+.dashboard{
+    width: 70%;
+    position: fixed;
+    right: 0;
+
+}
+
+.head{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding-top: 15%;    
+}
+.sub-headings{
+    color: rgba(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold
+
+}
+/* .cards{
+    /* padding-top: 30%;
+    padding-right: 30%; */
+
+
+.info{
+    background-color: #60A5F5;
+    padding-top: 7%;
+    margin-right: 3%;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info h6{
+font-size: small;
+font-weight: lighter;
+color: rgba(255, 255, 255, 0.608);
+}
+
+.info h5{
+    font-weight: bold;
+    padding-top: 0;
+}
+
+/* Local Table Css */
+
+table{
+    font-family: 'Poppins', sans-serif;
+}
+
+th{
+    color: rgba(0, 0, 0, 0.307);
+    padding-right: 100px;
+    font-size: small;
+}
+
+.HistoryTable tr{
+    padding-bottom: 100px;
+}

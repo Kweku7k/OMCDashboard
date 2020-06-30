@@ -1,0 +1,4 @@
+nav is a component on its own I guess...
+Yeah, so,
+Home = Nav + Home
+Stations = Nav + Stations
